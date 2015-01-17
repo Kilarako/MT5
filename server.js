@@ -11,9 +11,9 @@ var app = express()
 , server = http.createServer(app);
 
 // Config
-var PORT = process.env.PORT,
+var PORT = 8081,
 	TRACKS_PATH = './client/multitrack/',
-	addrIP = process.env.IP;
+	addrIP = 24.138.249.40;
 
 //User validation
 var auth = express.basicAuth(function(user, pass) {     
